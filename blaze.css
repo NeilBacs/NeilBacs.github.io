@@ -1,0 +1,20 @@
+
+#center{ 
+    text-align:center
+}
+
+#photo{
+    border: 5px solid red;
+    height: 15%;
+    width: 15%
+    
+}
+body{
+    background-image:url("sunbg.avif");
+    background-size: cover;
+	background-position: center	;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
