@@ -6,19 +6,19 @@ let V2=document.getElementById("V2")
 let ComputeDilutionBtn=document.getElementById("ComputeDilutionBtn")
 
 
-// ComputeDilutionBtn.addEventListener("click", ()=>{
-//     if(C1.value && C2.value && V1.value){
-//         V2.value=(C1.value*V1.value)/C2.value
-//     }else if(C1.value && C2.value && V2.value){
-//         V1.value=(V2.value*C2.value)/C1.value
-//     }else if(C1.value && V1.value && V2.value){
-//         C2.value=(C1.value*V1.value)/V2.value
-//     }else if(C2.value && V1.value && V2.value){
-//         C1.value=(C2.value*V2.value)/V1.value
-//     }else{
-//         alert("Leave one input box empty on Dilution process")
-//     }
-// })
+ComputeDilutionBtn.addEventListener("click", ()=>{
+    if(C1.value && C2.value && V1.value){
+        V2.value=(C1.value*V1.value)/C2.value
+    }else if(C1.value && C2.value && V2.value){
+        V1.value=(V2.value*C2.value)/C1.value
+    }else if(C1.value && V1.value && V2.value){
+        C2.value=(C1.value*V1.value)/V2.value
+    }else if(C2.value && V1.value && V2.value){
+        C1.value=(C2.value*V2.value)/V1.value
+    }else{
+        alert("Leave one input box empty on Dilution process")
+    }
+})
 
 
 let MM=document.getElementById("MM")
