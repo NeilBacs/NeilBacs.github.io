@@ -8,7 +8,7 @@ let ComputeDilutionBtn=document.getElementById("ComputeDilutionBtn")
 
 ComputeDilutionBtn.addEventListener("click", ()=>{
     if(C1.value && C2.value && V1.value){
-        V2.value=(C1.value*C2.value)/V1.value
+        V2.value=(C1.value*V1.value)/C2.value
     }else if(C1.value && C2.value && V2.value){
         V1.value=(V2.value*C2.value)/C1.value
     }else if(C1.value && V1.value && V2.value){
